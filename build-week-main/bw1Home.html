@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Your Exam</title>
+    <link rel="stylesheet" href="bw1.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="img/epicode_logo.png" alt="Epicode Logo" />
+      </div>
+      <div class="title">Welcome to</div>
+      <div class="subtitle">your exam</div>
+      <div class="instructions">Instructions</div>
+      <div class="details">
+        We don't expect most engineers to know the answers to all of these
+        questions, so don't worry if you're unsure of a few of them.
+        <ul>
+          <li>
+            Each question is <strong>timed</strong> and can only be
+            <strong>answered once</strong>.
+          </li>
+          <li>
+            Changing browser tab or opening other windows will
+            <strong>invalidate the question</strong>.
+          </li>
+          <li>This exam will take approx. <strong>0-5 minutes</strong>.</li>
+        </ul>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="confirm" />
+        <label for="confirm"
+          >I promise to answer myself without help from anyone</label
+        >
+        <button class="default-button" onclick="proceed()">PROCEED</button>
+      </div>
+    </div>
+    <script src="./bw1Home.js"></script>
+  </body>
+</html>
